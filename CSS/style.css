@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #3e3e3e;
+}
+
+nav img{
+    height: 50px;
+}
+
+nav a{
+    color: #fff !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.banner{
+    min-height: 600px;
+    background-image: url(../Images/banner.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about{
+    padding: 40px 0px;
+}
+
+.about .img-wrap{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.about-image{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .img-wrap .info{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 40px;
+    background: linear-gradient(to top,#000,transparent 90%);
+}
+
+.about-con{
+    border-radius: 40px;
+    padding: 50px;
+}
+
+@media (max-width:992px) {
+    .about-con{
+        padding: 30px;
+    }
+}
+
+.about .btn-box-1{
+    background-color: #dc3545;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about .btn-box{
+    background-color: #ffc107;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:992px) {
+    .about .btn-box-1{
+        background-color: #dc3545;
+        padding: 40px 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about .btn-box{
+        background-color: #ffc107;
+        padding: 40px 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about .yel{
+    background-color: #ffc107;
+    border-radius: 30px;
+    padding: 7px 30px;
+    border: none;
+}
+
+.about .re{
+    background-color: #dc3545;
+    border-radius: 30px;
+    padding: 7px 30px;
+    border: none;
+}
+
+.about button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.amenities{
+    padding: 40px 0px;
+}
+
+.amenities .img-wrap{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.amenities img{
+    border-radius: 20px;
+}
+
+.amenities .img-wrap .info{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 40px;
+    background: linear-gradient(to top,#000,transparent 90%);
+}
+
+.services{
+    padding: 40px 0px;
+}
+
+.services .back th{
+    background-color: #ffc107;
+}
+
+.services .bg td{
+    background-color: beige;
+}
+
+.services a{
+    background-color: #ffc107;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px;
+}
+
+.happy{
+    padding: 40px 0px;
+}
+
+.map{
+    padding: 40px 0px;
+}
+
+.contact{
+    padding: 40px 0px;
+    background-color: #ffc107;
+}
+
+
+.contact-info{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.contact-info a{
+    color: #717275;
+    text-decoration: none;
+}
+
+.contact button{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
