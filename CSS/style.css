@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: DMSans;
+    src: url(../fonts/DMSans-Medium.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: DMSans !important;
+}
+
+a{
+    font-family: DMSans !important;
+}
+
 nav{
     background-color: #3e3e3e;
 }
@@ -14,7 +32,7 @@ nav img{
 
 nav a{
     color: #fff !important;
-    font-size: 14px;
+    font-size: 14px !important;
     text-transform: uppercase;
 }
 
@@ -27,6 +45,29 @@ nav a{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.banner h6{
+    font-size: 32px;
+}
+
+.banner h1{
+    font-size: 52px;
+}   
+
+.banner h2{
+    font-size: 38px;
+}
+
+
+@media (max-width:545px) {
+    .banner h6{
+        font-size: 22px;
+    }
+    
+    .banner h1{
+        font-size: 32px;
+    }     
 }
 
 .about{
@@ -200,4 +241,12 @@ nav a{
     background-color: #dc3545;
     color: #fff;
     border: none;
+}
+
+.floor-plans{
+    padding: 40px 0px;
+}
+
+.floor-plans img{
+    border: 10px solid #ffc107;
 }
