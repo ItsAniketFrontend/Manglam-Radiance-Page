@@ -38,7 +38,7 @@ nav a{
 
 .banner{
     min-height: 600px;
-    background: linear-gradient(to top,#000,transparent 90%),url(../Images/banner.jpg);
+    background: linear-gradient(to top,#000,transparent 90%),url(../Images/banner.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ nav a{
 @media (max-width:545px) {
     .banner{
         min-height: 600px;
-        background: linear-gradient(to top,#000,transparent 90%),url(../Images/banner.jpg);
+        background: linear-gradient(to top,#000,transparent 90%),url(../Images/banner.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
