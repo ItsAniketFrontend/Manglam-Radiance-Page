@@ -61,6 +61,16 @@ nav a{
 
 
 @media (max-width:545px) {
+    .banner{
+        min-height: 600px;
+        background: linear-gradient(to top,#000,transparent 90%),url(../Images/banner.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    }
     .banner h6{
         font-size: 22px;
     }
@@ -209,11 +219,11 @@ nav a{
 
 .services a{
     background-color: #ffc107;
-    border-radius: 100px;
+    border-radius: 10px;
     color: white;
     font-size: 16px;
     font-weight: 700;
-    padding: 12px 24px;
+    padding: 5px 10px;
 }
 
 .happy{
