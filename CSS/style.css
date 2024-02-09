@@ -148,7 +148,7 @@ nav a{
 }
 
 .about .btn-box{
-    background-color: #ca1d22;;
+    background-color: #ffc107;
     padding: 50px;
     border-radius: 20px;
     display: flex;
@@ -173,7 +173,7 @@ nav a{
     }
     
     .about .btn-box{
-        background-color:#ca1d22;
+        background-color: #ffc107;
         padding: 40px 10px;
         border-radius: 20px;
         display: flex;
@@ -191,7 +191,7 @@ nav a{
 }
 
 .about .re{
-    background-color: #ffc107;
+    background-color: #ca1d22;
     border-radius: 30px;
     padding: 7px 30px;
     border: none;
