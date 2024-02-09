@@ -59,6 +59,26 @@ nav a{
     font-size: 38px;
 }
 
+.call-btn{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 600;
+}
+
+.call-btn button{
+    width: 100%;
+    z-index: 600;
+    background-color: #e0af38;
+    padding: 6px 14px;
+    border: none;
+}
+
+.call-btn button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
 
 @media (max-width:545px) {
     .banner{
